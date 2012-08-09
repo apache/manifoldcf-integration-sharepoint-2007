@@ -1,7 +1,7 @@
 Apache ManifoldCF SharePoint 2007 Plugin change Log
 $Id$
 
-======================= 0.3-dev =====================
+======================= Release 0.3 ==================
 
 CONNECTORS-498: Remove ToLower() since it is locale-specific.
 (Ahmet Arslan, Karl Wright)
