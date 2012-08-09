@@ -31,28 +31,14 @@
     </target>
 
     
-    <target name="calculate-condition">
-        <available file="wsdls/Permissions.wsdl" property="PermissionsStatus"/>
-        <condition property="canBuild">
-            <and>
-                <isset property="PermissionsStatus"/>
-            </and>
-        </condition>
-    </target>
-    
-    <target name="precompile-check" depends="calculate-condition" unless="canBuild">
-        <echo message="Apache SharePoint 2007 ManifoldCF Plugin cannot be built without Permissions.wsdl"/>
-    </target>
-
-    <target name="compile" depends="precompile-check" if="canBuild">
-        <copy todir="webservice/Web References/SPPermissionsService" file="wsdls/Permissions.wsdl"/>
+    <target name="compile">
         <exec executable="cmd" dir="webservice" failonerror="true" failifexecutionfails="true">
             <arg value="/c"/>
             <arg value="build.bat"/>
         </exec>
     </target>
 
-    <target name="deliver" depends="compile" if="canBuild">
+    <target name="deliver" depends="compile">
         <mkdir dir="dist"/>
         <copy todir="dist">
             <fileset dir="webservice/Package">
@@ -63,10 +49,10 @@
         </copy>
     </target>
 
-    <target name="build" depends="deliver" if="canBuild"/>
+    <target name="build" depends="deliver"/>
     
     <target name="set-version">
-        <property name="release-version" value="0.2-dev"/>
+        <property name="release-version" value="0.3-dev"/>
     </target>
       
     <target name="create-source-zip" depends="set-version">
