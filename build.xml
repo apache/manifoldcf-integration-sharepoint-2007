@@ -61,6 +61,7 @@
           <exclude name="/wsdls/Permissions.wsdl"/>
           <exclude name="/webservice/Web References/SPPermissionsService/Permissions.wsdl"/>
           <exclude name="/webservice/Package/*.wsp"/>
+          <exclude name="/webservice/bin/">
           <exclude name="/dist/"/>
           <exclude name="/apache-manifoldcf-sharepoint-2007-plugin-*"/>
         </zipfileset>
@@ -73,6 +74,7 @@
           <exclude name="/wsdls/Permissions.wsdl"/>
           <exclude name="/webservice/Web References/SPPermissionsService/Permissions.wsdl"/>
           <exclude name="/webservice/Package/*.wsp"/>
+          <exclude name="/webservice/bin/">
           <exclude name="/dist/"/>
           <exclude name="/apache-manifoldcf-sharepoint-2007-plugin-*"/>
         </tarfileset>
