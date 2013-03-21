@@ -14,8 +14,8 @@
 # limitations under the License.
 
 
-Instructions for Building Apache ManifoldCF SharePoint 2007 Plugin from Source
---------------------------------------------------------------------------
+Instructions for Building Apache ManifoldCF Plugin for SharePoint 2007 from Source
+------------------------------------------------------------------------------
 
 This source MUST be built on a Windows system.
 
@@ -40,16 +40,16 @@ This source MUST be built on a Windows system.
    build.xml file), and type "ant" for directions.
 
 
-Some Files Included In Apache ManifoldCF SharePoint 2007 Plugin Distributions
--------------------------------------------------------------------------
+Some files included in Apache ManifoldCF Plugin for SharePoint 2007 distributions
+-----------------------------------------------------------------------------
 
 dist/MetaCarta.SharePoint.MCPermissionsService.wsp
-  The Apache ManifoldCF SharePoint 2007 Plugin assembly.
+  The Apache ManifoldCF Plugin for SharePoint 2007 assembly.
 
 Licensing
 ---------
 
-Apache ManifoldCF SharePoint 2007 Plugin is licensed under the
+Apache ManifoldCF Plugin for SharePoint 2007 is licensed under the
 Apache License 2.0. See the files called LICENSE.txt and NOTICE.txt
 for more information.
 
@@ -78,7 +78,7 @@ code and source code.
 The following provides more details on the included software that
 may be subject to export controls on cryptographic software:
 
-  The Apache ManifoldCF SharePoint 2007 Plugin
+  The Apache ManifoldCF Plugin for SharePoint 2007
   does not include any implementation or usage of cryptographic software
   at this time.
   

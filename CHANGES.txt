@@ -1,4 +1,4 @@
-Apache ManifoldCF SharePoint 2007 Plugin change Log
+Apache ManifoldCF Plugin for SharePoint 2007 change Log
 $Id$
 
 ======================= 0.5-dev =====================

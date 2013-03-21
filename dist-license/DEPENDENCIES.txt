@@ -1,9 +1,9 @@
-Apache ManifoldCF SharePoint 2007 Plugin requires
--------------------------------------------------
+Apache ManifoldCF Plugin for SharePoint 2007 requires
+----------------------------------------------------
 * Microsoft SharePoint version 3.0 (2007)
 
-For running Apache ManifoldCF SharePoint 2007 Plugin:
-----------------------------------------------------
+For running Apache ManifoldCF Plugin for SharePoint 2007:
+-------------------------------------------------------
 
 * See README.txt
 
