@@ -141,7 +141,7 @@ namespace MetaCarta.SharePoint.SoapServer
             }
         }
 
-        private XmlNode PopulateResponse(SPSecurableObject item)
+        private XmlNode PopulateResponse(ISecurableObject item)
         {
             XmlNode retVal = null;
             if (item.RoleAssignments.Count > 0)
