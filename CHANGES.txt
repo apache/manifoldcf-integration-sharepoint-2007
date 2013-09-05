@@ -3,6 +3,10 @@ $Id$
 
 ======================= 0.5-dev =====================
 
+CONNECTORS-754: Home-grown permissions access rather than
+calling Permissions.asmx.
+(Will Parkinson, Karl Wright)
+
 ======================= Release 0.4 ==================
 
 CONNECTORS-534: Repackage plugins to have a true binary release,
