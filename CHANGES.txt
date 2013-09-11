@@ -1,7 +1,9 @@
 Apache ManifoldCF Plugin for SharePoint 2007 change Log
 $Id$
 
-======================= 0.5-dev =====================
+======================= 0.6-dev =====================
+
+======================= Release 0.5 ==================
 
 CONNECTORS-754: Home-grown permissions access rather than
 calling Permissions.asmx.
